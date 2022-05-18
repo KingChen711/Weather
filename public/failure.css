@@ -1,0 +1,41 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  text-shadow: 5px 0px 0px black;
+  color: white;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  font-size: 50px;
+  padding: 20px 60px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+button:hover
+{
+  background-color: white;
+  color: black;
+}
+
+body {
+  background-image: url('images/failure.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
